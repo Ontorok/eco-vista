@@ -10,7 +10,7 @@ export default function CurrentTemperature() {
             width={71}
             height={71}
             className="max-w-20"
-            src="/icons/icon_tempareture.png"
+            src="/icon_tempareture.png"
             alt="rain icon"
           />
           <h3 className="feature-title">246.43°C</h3>

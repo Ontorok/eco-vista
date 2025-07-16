@@ -8,7 +8,7 @@ export default function AirQualityIndexItem() {
           width={18}
           height={18}
           className="max-w-[18px]"
-          src="/icons/icon_air_element.png"
+          src="/icon_air_element.png"
           alt="icon"
         />
         Air Quality Index

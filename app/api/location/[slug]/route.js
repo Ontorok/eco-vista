@@ -1,4 +1,4 @@
-import { getLocationByName } from '@/_utils/location-utils';
+import { getLocationByName } from '@/_lib/location-data';
 import { NextResponse } from 'next/server';
 
 export async function GET(_request, { params }) {

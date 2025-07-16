@@ -8,7 +8,7 @@ export default function CurrentWeather() {
         <div className="feature-main">
           <Image
             className="max-w-20"
-            src="/icons/icon_rain.png"
+            src="/icon_rain.png"
             alt="rain icon"
             width={70}
             height={70}

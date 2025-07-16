@@ -10,7 +10,7 @@ export default function Wind() {
             width={70}
             height={70}
             className="max-w-20"
-            src="/icons/icon_wind.png"
+            src="/icon_wind.png"
             alt="rain icon"
           />
           <h3 className="feature-title">Rain</h3>

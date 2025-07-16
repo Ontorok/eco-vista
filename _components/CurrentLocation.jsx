@@ -14,7 +14,7 @@ export default function CurrentLocation() {
                 width={36}
                 height={36}
                 className="size-9"
-                src="/icons/link.svg"
+                src="/link.svg"
                 alt="link icon"
               />
             </button>

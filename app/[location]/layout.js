@@ -14,7 +14,7 @@ export default function LocationLayout({
         width={1080}
         height={1920}
         alt="Eco Vista"
-        src="/images/background.png"
+        src="/background.png"
         className="bg-img"
       />
       <div className="overlay"></div>
