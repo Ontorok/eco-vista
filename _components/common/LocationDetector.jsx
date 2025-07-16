@@ -26,18 +26,12 @@ export default function LocationDetector() {
 
   return (
     <div className="flex flex-col justify-center items-center h-screen bg-gradient-to-r from-slate-700 to-slate-500 ">
-      loading && (
-      <>
-        <Image
-          src="/network.gif"
-          alt="Loading..."
-          height={500}
-          width={500}
-          className="border rounded-md my-4"
-        />
-        <p className="text-4xl text-center">Detecting Location...</p>
-      </>
-      )
+      {loading && (
+        <>
+          <Image src="/network.gif" alt="Loading..." height={500} width={500} className="border rounded-md my-4" />
+          <p className="text-4xl text-center">Detecting Location...</p>
+        </>
+      )}
     </div>
   );
 }

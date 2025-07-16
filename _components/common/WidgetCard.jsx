@@ -1,4 +1,4 @@
-export default function WidgetCard({ children, title, size = 'lg' }) {
+export default function WidgetCard({ children, title, size }) {
   let sizeClass = 'col-span-6';
   switch (size) {
     case 'sm':
