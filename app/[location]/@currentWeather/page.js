@@ -1,7 +1,5 @@
 import CurrentWeather from '@/_components/CurrentWeather';
-import { sleep } from '@/_utils/common-utils';
 
-export default async function CurrentWeatherPage() {
-  await sleep(5000);
-  return <CurrentWeather />;
+export default async function CurrentWeatherPage({ params: { location }, searchParams: { latitude, longitude } }) {
+  return <CurrentWeather lat={latitude} lon={longitude} />;
 }
