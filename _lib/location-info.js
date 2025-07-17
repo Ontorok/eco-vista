@@ -22,9 +22,7 @@ const getLocationLatLongList = async () => {
 
 const getLocationLatLong = async (locationName) => {
   try {
-    const response = await fetch(
-      `http://localhost:3000/api/location/${locationName}`
-    );
+    const response = await fetch(`http://localhost:3000/api/location/${locationName}`);
     const data = await response.json();
     return data;
   } catch (e) {
@@ -47,9 +45,4 @@ const getResolvedLatLong = async (location, lat, lon) => {
   }
 };
 
-export {
-  getLocationData,
-  getLocationLatLong,
-  getLocationLatLongList,
-  getResolvedLatLong,
-};
+export { getLocationData, getLocationLatLong, getLocationLatLongList, getResolvedLatLong };

@@ -2,7 +2,9 @@ import { getWeatherData } from '@/_lib/weather-info';
 import Image from 'next/image';
 
 export default async function CurrentWeather({ lat, lon }) {
-  const { main, description } = await getWeatherData(lat, lon);
+  const {
+    weather: { main, description },
+  } = await getWeatherData(lat, lon);
 
   return (
     <div className="col-span-12 lg:col-span-4 2xl:col-span-3">
